@@ -1,0 +1,67 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --secondory-title-color: #FFFFFF;
+}
+
+/* вторичный цвет фона #F5F4FA */
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+.auth-nav .link-auth {
+    color: var(--text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: #2196F3;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+}
+.section-options .options {
+    color: var(--secondory-title-color);
+}
+.service-title {
+    color: var(--secondory-title-color);
+}
+.features .text {
+    color: var(--text-color);
+}
+.section-people {
+    background-color: #F5F4FA;
+}
+.address-text {
+    color: var(--secondory-title-color);
+}
+.media-title {
+    color: var(--secondory-title-color);
+}
+.footer {
+    background-color: #2F303A;
+}
+
+/* portfolio */
+.options-title {
+    color: var(--primary-text-color);
+}
+.examples-title {
+    color: var(--primary-text-color);
+}
+.examples-text {
+    color: var(--text-color);
+}
