@@ -16,6 +16,9 @@ body {
 ul {
     list-style: none;
 }
+.page-header {
+    background-color: #FFFFFF;
+}
 /* site-nav */
 .site-nav .link {
     color: var(--primary-text-color);
