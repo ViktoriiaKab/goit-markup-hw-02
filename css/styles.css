@@ -4,7 +4,7 @@
     --secondory-title-color: #FFFFFF;
 }
 
-/* вторичный цвет фона #F5F4FA */
+
 
 body {
     background-color: #E5E5E5;
@@ -30,8 +30,13 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-color: #2196F3;
+    color: #2196F3;
 }
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
 .auth-nav .link-auth {
     color: var(--text-color);
     
@@ -110,6 +115,7 @@ color: #2196F3;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 .media-title {
     color: var(--secondory-title-color);
@@ -123,7 +129,7 @@ color: #2196F3;
 }
 
 /* portfolio */
-.button .title {
+.button .btn {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     font-family: inherit;
@@ -132,10 +138,13 @@ color: #2196F3;
     line-height: 1.6;
     letter-spacing: 0.03em;
 }
-.button .title:hover,
-.button .title:focus {
+.button .btn:hover {
+    background-color: #2196F3;
+}
+.button .btn:focus {
     color: #2196F3;
 }
+
 .examples-title {
     color: var(--primary-text-color);
     font-weight: 700;
